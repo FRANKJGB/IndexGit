@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>llenar el formulario de contacto</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body style="background-color: #E26050 ;">
+	<h1 style="color: greenyellow; text-align: center; font-family: monospace; "> Complete el Formulario</h1>
+
+	<form action="paginadatos.html" method="get" target="_blank"> 
+
+	  <table border="3" style="background-color: lightgray; margin: auto">
+	  	<tr>
+       		<td><b>Ingrese Nombre</b></td>
+       		<td><input type="text" name="nombre" autofocus required></td>
+	  	</tr>
+	  	<tr>
+       		<td><b>Ingrese Rut</b></td>
+       		<td><input type="text" name="numero" required></td>
+	  	</tr>
+	  	<tr>
+       		<td><b>Correo Electronico</b></td>
+       		<td><input type="mail" name="mail" required></td>
+	  	</tr>
+	  	<tr>
+			<td><b>Fecha</b></td>
+			<td><input type="date" name="fecha" required></td>
+		    
+	  	</tr>
+		<tr>	
+			<td><b>Observación</b></td>
+			<td><textarea name="obj" rows="3" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="boton" value="Enviar"></td>
+			<td><button type="reset">Reiniciar</button></td>
+		</tr>
+
+	  </table>
+	</form>
+
+	<hr><br><br><br>
+
+	<div>
+		<h3 style="font-family: cursive; text-align: center;">Desarrollado por Francisco Garcia</h3>
+	</div>  
+
+
+</body>
+</html>
